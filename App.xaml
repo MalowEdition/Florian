@@ -1,0 +1,9 @@
+﻿<!-- Equivaut au main en xaml -->
+<Application x:Class="appRegulateurComposeur.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml"> <!-- lance la fenetre principale du projet -->
+    <Application.Resources>
+        <!-- BINDING <model:MaClasse x:Key="InstanceDeMaClasse"/> -->
+    </Application.Resources>
+</Application>
