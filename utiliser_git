@@ -1,0 +1,12 @@
+--- git bash --- 
+
+_Faire un commit_ 
+	cd "chemin/"
+	git add *
+	git commit -m "nomDeCommit"
+	git push origin master
+
+
+_Pour récupérer depuis GitHub_
+	cd "chemin/"
+	git clone "https://github.com/bts2016/Florian.git"
