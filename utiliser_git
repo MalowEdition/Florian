@@ -1,12 +1,37 @@
 --- git bash --- 
 
-_Faire un commit_ 
-	cd "chemin/"
-	git add *
-	git commit -m "nomDeCommit"
-	git push origin master
+
+	Se diriger dans le dossier voulu
+
+-> cd "chemin/"
 
 
-_Pour récupérer depuis GitHub_
-	cd "chemin/"
-	git clone "https://github.com/bts2016/Florian.git"
+	Initialiser un dépot git
+
+-> git init   // Initialise le dossier comportant la racine git avec les fichiers cachés
+-> git status // vérifie si les fichiers sont envoyés ou non (vert/rouge)
+-> git add    // Ajoute le fichier voulu dans le répertoire git en ligne (séléectionner "*" pour tout séléectionner)
+-> git status // vérifie si les fichiers sont envoyés ou non (vert/rouge)
+
+
+	Faire un commit
+
+-> git commit -m "nomDUCommit"       // Le nom du commit correspond au nom sous lequel votre sauvegarde sera enregistrée*
+-> git log                           // Permet de voir les différents commit et leur date de création   
+
+
+	Associer un dossier à un répertoire web voulu (github)
+
+-> git remote                        // Permet de visualiser les serveurs distants deja enregistrés
+-> git remote add origin "UrlVoulu"  // Donne la destination d'origine du dossier voulu sur un répertoire GitHub web voulu
+
+
+	Envoyer le commit dans le répertoire distant 
+
+-> git push origin master // Envoie Le dernier commit sur le répertoire distant
+
+
+	Pour récupérer depuis GitHub
+
+->	cd "chemin/"
+->	git clone "https://github.com/bts2016/Florian.git"
